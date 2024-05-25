@@ -1,0 +1,125 @@
+body {
+     font-family: Roboto, sans-serif;
+}
+
+.navbar {
+     background-color: #FF50AD;
+}
+
+#cabecalho .nav .nav-link.active {
+     background-color: #fff;
+     color: #FF0C8E;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-doces .nav-link.active:hover {
+     color: #fff;
+}
+
+.navbar-toggler {
+     background-color: #f5c5df;
+}
+
+.section-title {
+     font-family: Pacifico, cursive;
+}
+
+#sobre,
+#doces {
+     background-color: #f5c5df;
+}
+
+.text-colored {
+     color: #FF0C8E;
+}
+
+.nav-doces .nav-link.active,
+#fale-conosco button {
+     background-color: #FF0C8E;
+     color: #fff;
+}
+
+.nav-doces .nav-link:hover {
+     color: #FF0C8E;
+}
+
+.social-links li {
+     list-style: none;
+     display: inline;
+}
+
+.social-links li a {
+     text-decoration: none;
+}
+
+.carousel-item img {
+     height: 70vh;
+     width: 100%;
+}
+
+.img-eventos {
+     height: 280px;
+}
+
+.tab-content img {
+     height: 160px;
+}
+
+form {
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+}
+
+.h2-form {
+     margin-left: 130px;
+     border-bottom: 2px solid #FF0C8E;
+     padding: 15px 0;
+     width: 400px;
+}
+
+.form-control {
+     width: 400px;
+}
+
+textarea {
+     resize: none;
+}
+
+.btn {
+     width: 100px;
+}
+
+.h2-lojas {
+     border-bottom: 2px solid #FF0C8E;
+     padding: 18px 0;
+     width: 450px;
+}
+
+.h2-redes {
+     border-bottom: 2px solid #FF0C8E;
+     padding: 15px 0;
+     width: 450px;
+}
+
+footer {
+     display: flex;
+     background-color: #ff50ad;
+     color: #fff;
+     margin-top: 20px;
+}
+
+footer p {
+     margin: 10px;
+     font-weight: bold;
+     text-align: center;
+     color: #fff;
+}
+
+@media (max-width: 767px) {
+     .carousel-item img {
+          height: 280px;
+     }
+}
