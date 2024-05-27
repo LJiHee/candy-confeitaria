@@ -19,7 +19,8 @@ body {
 }
 
 .navbar-toggler {
-     background-color: #f5c5df;
+     background-color: #FF50AD;
+     border: none;
 }
 
 .section-title {
@@ -74,7 +75,7 @@ form {
 }
 
 .h2-form {
-     margin-left: 130px;
+     margin: auto;
      border-bottom: 2px solid #FF0C8E;
      padding: 15px 0;
      width: 400px;
@@ -118,8 +119,75 @@ footer p {
      color: #fff;
 }
 
-@media (max-width: 767px) {
+@media screen and (min-width: 820px) and (max-width: 1023px) {
+     .container {
+          max-width: 90%;
+     }
+
      .carousel-item img {
-          height: 280px;
+          height: 30vh;
+          width: 100%;
+     }
+
+     .img-sobre {
+          height: 28vh;
+     }
+
+     .col-md-4 img {
+          height: 50%;
+     }
+
+     .tab-content img {
+          height: 10vh;
+     }
+
+     .h2-form {
+          margin: auto;
+          width: 300px;
+     }
+
+     .form-control {
+          width: 300px;
+     }
+}
+
+@media screen and (max-width: 670px) {
+     .container {
+          max-width: 90%;
+     }
+
+     .carousel-item img {
+          height: 30vh;
+          width: 100%;
+     }
+
+     .tab-content img {
+          height: 35vh;
+     }
+
+     .h2-form {
+          margin: auto;
+          width: 280px;
+     }
+
+     .form-control {
+          width: 280px;
+     }
+
+     .btn {
+          width: 100px;
+          margin-bottom: 30px;
+     }
+
+     .h2-lojas {
+          border-bottom: 2px solid #FF0C8E;
+          padding: 18px 0;
+          width: 325px;
+     }
+
+     .h2-redes {
+          border-bottom: 2px solid #FF0C8E;
+          padding: 15px 0;
+          width: 325px;
      }
 }

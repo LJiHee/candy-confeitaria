@@ -25,6 +25,8 @@ $(document).ready(function () {
           },
           submitHandler: function (form) {
                console.log(form)
+               const $form = $(form);
+               $form.trigger("reset");
           },
           invalidHandler: function (evento, validador) {
                let camposIncorretos = validador.numberOfInvalids();
